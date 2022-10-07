@@ -11,7 +11,7 @@
   background: #eff4fd;
 }
 
-nav{
+nav {
   display: flex;
   width: 84%;
   margin: auto;
@@ -20,43 +20,43 @@ nav{
   justify-content: space-between;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   list-style: none;
   margin: 10px 20px;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
-  color:#000;
+  color: #000;
   font-weight: bold;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   color: red;
 }
 
-.detel{
+.detel {
   margin-left: 8%;
   margin-top: 13%;
 }
 
-.detel h1{
+.detel h1 {
   font-size: 50px;
   color: #212121;
   margin-bottom: 20px;
 }
 
-span{
+span {
   color: orange;
 }
 
-.detel p{
+.detel p {
   color: #555;
   line-height: 22px;
 }
 
-.detel a{
+.detel a {
   background: #212121;
   padding: 10px 18px;
   text-decoration: none;
@@ -67,7 +67,7 @@ span{
   border-radius: 5px;
 }
 
-.images{
+.images {
   width: 45%;
   height: 80%;
   position: absolute;
@@ -75,7 +75,7 @@ span{
   right: 100px;
 }
 
-.images img{
+.images img {
   height: 100%;
   position: absolute;
   left: 50%;
@@ -84,10 +84,10 @@ span{
   transition: bottom 1s, left 1s;
 }
 
-.images:hover .shape{
-  bottom:40px;
+.images:hover .shape {
+  bottom: 40px;
 }
 
-.images:hover .girl{
-  left:45%;
+.images:hover .girl {
+  left: 45%;
 }
